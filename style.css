@@ -1,0 +1,93 @@
+*{
+    font-family: "Google Sans", sans-serif;
+    color: #CEDC00;
+    /* border: 1px solid black; */
+}
+
+/* NAVIGATION BAR CSS */
+body{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_nav{
+    display:inline-flex;
+    width: 95vw;
+    justify-content: space-between; 
+    margin: auto;    
+}
+
+.brand_nav{
+    display: flex;
+    gap: 1rem;
+    margin-left: 2vw;
+}
+
+.brand_nav > p {
+    color: #00594f;
+}
+
+.links_nav{
+    display: flex;
+    gap: 2rem;
+    margin-right: 2vw;
+}
+
+.links_nav>p{
+    color: #00594f;
+}
+
+/* MAIN CONTENT CSS */
+.container_main{
+    background-color: #CEDC00;
+    background-image: url("./assets/background_image_hero.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-flex;
+    height: 90vh;
+    width: 90vw;
+    justify-content: center;
+    margin:auto;
+    gap: 10vw;
+    border-radius: 1%;
+
+}
+
+#container_main_content{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+#face_image{
+    border-radius: 50%;
+    height: 15vw;
+    width: 15vw;
+}
+
+#container_main_content > p,h1 {
+    text-align: center;
+    color: white;
+}
+
+/* MAIN CONTENT LOGOS CSS */
+#container_main_images_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#container_main_images_left > img{
+    width: 15vw;
+    height: 15vw;
+}
+
+/* FOOTER CSS */
+footer > p{
+ font-size: x-small;
+ text-align: center;
+}
