@@ -40,7 +40,6 @@ body{
 
 /* MAIN CONTENT CSS */
 .container_main{
-    background-color: #CEDC00;
     background-image: url("./assets/background_image_hero.png");
     background-repeat: no-repeat;
     background-position: center;
